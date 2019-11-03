@@ -2,10 +2,12 @@
 
 .footer-style {
     display: flex;
-    background-color: rgb(22, 19, 19);
+    background-color: rgb(12, 99, 114);
     padding: 2em;
     bottom: 0px;
     font-family: 'Creepster', cursive;
+    flex-direction: column;
+    padding-top: 1em;
 }
 
 .logo-style {
@@ -15,13 +17,17 @@
 
 .footerp1 {
     display: flex;
-    width: 45%;
-    font-size: 1.5em;
     margin-left: 1em;
+    font-size: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1em;
+    font-size: 1.2em;
 }
 
 .para-footer {
-    color: rgb(20, 127, 146);
+    color: black;
+    justify-content: space-evenly;
     font-family: 'Griffy', cursive;
     margin-top: 0;
     margin-bottom: 0;
@@ -33,7 +39,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 45%;
     padding-right: 2em;
     flex-direction: row;
     align-items: center;
