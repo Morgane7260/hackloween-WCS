@@ -16,10 +16,10 @@ class Quiz extends React.Component {
 
   // Récupération des données d'api (Simulation via un fichier .json)
   componentDidMount() {
-    $.getJSON('https://raw.githubusercontent.com/Yann31200/hackloween-WCS/Yann/src/components/quiz/api/quizQuestions.json', function(result) {
+    $.getJSON('https://raw.githubusercontent.com/Morgane7260/hackloween-WCS/demo/src/components/quiz/api/quizQuestions.json', function(result) {
       this.setState({quiz: result})
     }.bind(this))
-  }
+  }g
 
   handleSubmit() {
     if (this.state.index < this.state.quiz.questions.length) {
