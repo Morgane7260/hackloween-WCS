@@ -42,8 +42,8 @@ class Quiz extends React.Component {
 
   render() {
     const {
-      quiz, index, answers
-    } = this.state
+      quiz, index, answers, resultat
+        } = this.state
 
     let completed = (quiz.questions && (index === quiz.questions.length)) ? true : false
     let numberOfQuestions = quiz.questions ? quiz.questions.length : 0
@@ -51,8 +51,16 @@ class Quiz extends React.Component {
     if (completed) {
       this.state.answers.map((answer, i) => (
         score = score + this.state.quiz.questions[i].answers[answer].point
-      ))
-    }
+      ))}
+      function resultatText(){
+        if (score === 5){
+          return <p>1</p>
+        } if (5 > score > 1){
+          return <p>2</p>
+        } if (score === 0){
+          return <p>3</p>
+        } 
+      }
 
     // Affichage du score.
     return (
@@ -60,8 +68,8 @@ class Quiz extends React.Component {
         <h1>{quiz.title}</h1>
         {completed ?
           <div>
-            <p>Félicitation, Tu as finis le quiz</p>
-            Ton score est de : {score}
+            Ton score est de : {score} {' '}
+            Cela correspond à : {resultatText()}
           </div>
         :
           <div>

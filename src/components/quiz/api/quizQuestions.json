@@ -26,12 +26,12 @@
           "label": "Tu te cache sous ta couette en te disant qu'il se lassera avant toi, mais en faisant gaffe à ne faire dépasser ni bras ni orteils"
         },
         {
-          "point": 1,
-          "label": "Tu vas le rejoindre sous le lit pour lui faire part de ton ardent désir pour les clowns"
-        },
-        {
           "point": 0,
           "label": "Tu lui fais la causette et lui propose de venir boire un pot"
+        },
+        {
+          "point": 1,
+          "label": "Tu vas le rejoindre sous le lit pour lui faire part de ton ardent désir pour les clowns"
         }
       ]
     },
@@ -39,12 +39,12 @@
       "question": "En rentrant chez toi, tu passes devant le cimetière, des feux-follets soudain un grognement se laisse entendre et tu obsérve une main sortir de terre. Que fais-tu ?",
       "answers": [
         {
-          "point": 0,
-          "label": "Tu penses que c'est un enterré vivant et te dépêche de lui venir en aide"
-        },
-        {
           "point": 1,
           "label": "Tu lui tapes un check... normal gros !"
+        },
+        {
+          "point": 0,
+          "label": "Tu penses que c'est un enterré vivant et te dépêche de lui venir en aide"
         },
         {
           "point": 0,
@@ -77,11 +77,11 @@
           "label": "Tu appelles un exorciste"
         },
         {
-          "point": 1,
+          "point": 0,
           "label": "Tu décide d'arrêter de laisser trainer de la drogue partout ,mais aprés réflexion arrêter la drogue s'impose !"
         },
         {
-          "point": 0,
+          "point": 1,
           "label": "Tu décroche le fusil de papi du mur et la plombe comme un chevreuil."
         }
       ]
