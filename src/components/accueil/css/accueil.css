@@ -2,7 +2,7 @@
     display: flex;
     background-image: url('https://zupimages.net/up/19/44/g2em.png');
     background-size: cover;
-    color: aliceblue;
+    color: rgb(150, 128, 5);
     flex-wrap: wrap;
 }
 
@@ -11,12 +11,25 @@
     height: auto;
 }
 
-.title {
+.h1Accueil {
     text-align: center;
+    color: rgb(211, 147, 9);
+}
+
+.h2Accueil {
+    text-align: center;
+    color: rgb(211, 147, 9);
 }
 
 .text {
     text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.h3 {
+    text-align: center;
+    color: rgb(211, 147, 9);
 }
 
 .film {

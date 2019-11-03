@@ -21,3 +21,15 @@ div.cinematheque {
     padding-left: 1em;
     padding-top: 2em;
 }
+
+.h3cine {
+    color: rgb(105, 7, 7);
+}
+
+.director {
+    color:rgb(143, 122, 6);
+}
+
+.release {
+    color: rgb(2, 114, 21);
+}
