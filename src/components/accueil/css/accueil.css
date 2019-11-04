@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    background-image: url('https://zupimages.net/up/19/44/g2em.png');
+    background-size: cover;
+    color: rgb(150, 128, 5);
+    flex-wrap: wrap;
+}
+
+.fond {
+    width: 50%;
+    height: auto;
+}
+
+.h1Accueil {
+    text-align: center;
+    color: rgb(211, 147, 9);
+}
+
+.h2Accueil {
+    text-align: center;
+    color: rgb(211, 147, 9);
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.h3 {
+    text-align: center;
+    color: rgb(211, 147, 9);
+}
+
+.film {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-evenly;
+    margin-bottom: 7px;
+}
+
+.images {
+    width: 20%;
+    height: auto;
+    flex-wrap: wrap;
+    border: 3px solid;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
